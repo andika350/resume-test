@@ -1,21 +1,26 @@
 body{
-	padding: 0px;
-	margin: 0px;
-	margin-right:
+	
 }
 
 .row img {
 	max-width: 220px;
 	border-radius: 50px;
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 .padding {
-	background-color: #aaa
+	padding: 20px 0;
+	background-color: #188e9e;
 }
-.container-fluid {
-	padding: 20px;
+
+.padding {
+	padding: 80px 0;
 }
+
+.padding img {
+	width:100%;
+}
+
 
 .text-justify{
 	padding-top: 30px;
@@ -33,18 +38,13 @@ body{
 .intro-bg{
 	background:url(img/bg.jpg) no-repeat center center fixed;
 	height: 100%;
-	padding:150px;
+	padding:100px;
 	position: relative;
 	width:100%;
 	background-size: cover;
+}
 
 
-}
-.intro{
-	color: white;
-	background: grey;
-	opacity: 0.8;
-}
 .intro h1{
 	text-align: center;
 	font-weight: 700;
@@ -52,7 +52,7 @@ body{
 }
 .intro p {
 	font-size: 25px;
-	font-weight: 800;
+	font-weight: 200;
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
@@ -62,4 +62,44 @@ body{
 	font-size: 50px;
 	margin: 10px;	
 	margin-left: 80px;
+}
+
+.container-icon {
+	padding-top: 10px;
+}
+
+.col-sm-3{
+	margin-left: -70px;
+}
+
+
+.col-sm-9 {
+	padding-top: 10px;
+	text-align: justify;
+}
+
+.fixed{
+	background:url(img/bg2.jpg) no-repeat center center fixed;
+	height: 100%;
+	padding:250px;
+	position: relative;
+	width:100%;
+	background-size: cover;
+}
+
+footer {
+	width:100%;
+	background-color:#23415C;
+	padding: 5% 5% 10% 5%;
+	color: white;
+}
+
+footer .lni {
+	padding: 15px;
+	font-size: 25px;
+}
+
+footer .lni:hover {
+	color:grey;
+	text-decoration: none;
 }
